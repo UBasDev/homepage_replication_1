@@ -1,0 +1,105 @@
+<div
+  class="grid grid-cols-24 grid-flow-row gap-0 border border-gray-300 rounded-md"
+>
+  <div class="col-span-24 pl-1 py-0 m-0">
+    <div class="inline-flex items-center justify-center p-0 m-0 text-red-800 hover:text-orange-600 hover:underline cursor-pointer">
+      <h1 class="inline-block p-0 m-0" [innerHTML]="carousel_header | titlecase"></h1>
+      <span>&nbsp;</span>
+      <i class="fa-solid fa-angles-right m-0 p-0 text-xs"></i>
+    </div>
+  </div>
+  <div id="carousel_container" class="col-span-24 p-0 m-0">
+    <div (mouseenter)="show_carousel_arrows($event)" (mouseleave)="remove_carousel_arrows($event)" id="carousel_image_container" class="p-0 m-0">
+      <img
+        class="carousel_images  animation_carousel_image"
+        src="../../../../assets/carousel_images/doctor_strange.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image "
+        src="../../../../assets/carousel_images/unbearable_weight.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/bad_guys.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/olga.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/the_twin.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/the_northman.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/pahanhautoja.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/ave_marie.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/firehearth.jpg"
+        height="auto"
+        width="100%"
+      />
+      <img
+        class="carousel_images hidden animation_carousel_image"
+        src="../../../../assets/carousel_images/fantastic_beasts_secrets_of_dumbledore.jpg"
+        height="auto"
+        width="100%"
+      />
+      <div
+      (click)="skip_carousel_image('previous')"
+        id="carousel_left_arrow_container"
+        class="bg-gray-400 hover:bg-white p-0 m-0 flex items-center justify-center text-center rounded-tr-md rounded-br-md cursor-pointer hidden"
+      >
+        <a class="m-0 p-0" href="javascript:void(0)"
+          ><i
+            style="width: 100%; height: 100%"
+            class="fa-solid fa-circle-left p-0 m-0 text-gray-800 lg:scale-125"
+          ></i
+        ></a>
+      </div>
+      <div
+        (click)="skip_carousel_image('next')"
+        id="carousel_right_arrow_container"
+        class="bg-gray-400 hover:bg-white p-0 m-0 flex items-center justify-center text-center rounded-tl-md rounded-bl-md cursor-pointer hidden"
+      >
+        <a href="javascript:void(0)" class="m-0 p-0"
+          ><i
+            style="width: 100%; height: 100%"
+            class="fa-solid fa-circle-right p-0 m-0 text-gray-800 lg:scale-125"
+          ></i
+        ></a>
+      </div>
+      <div *ngFor="let data of carousel_data;index as index">
+        <div [ngClass]="{'hidden':index!=0}" class="carousel_bottom_containers m-0 p-2 flex justify-between">
+          <h1 class="inline-block text-yellow-700 hover:text-yellow-500 cursor-pointer animation_left_slide">{{data.name}}</h1>
+        <h1 class="inline-block text-yellow-700 animation_right_slide">{{data.date | date:'dd MMMM y'}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

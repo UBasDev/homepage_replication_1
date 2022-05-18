@@ -1,0 +1,24 @@
+<div *ngFor="let data of all_answer_question_data" class="grid grid-cols-24 grid-flow-row gap-0 p-0 m-0 mt-1 bg-white border border-gray-300 rounded-md">
+  <div class="col-span-24 pl-1">
+    <h1 class="animation_right_slide text-red-700">{{data.header}}</h1>
+  </div>
+  <div class="col-span-24 pl-1 text-center p-0 m-0 py-2">
+    <a class="hover:text-orange-600 text-blue-700 hover:underline" href="#">{{data.question}}</a>
+  </div>
+  <div class="col-span-24 pl-1 p-0 m-0">
+<form>
+  <div *ngFor="let answer of input_answers; index as index">
+    <input class="cursor-pointer" [id]="'answer_input_'+ answer.text" type="radio" [value]="answer.text">
+    <label class="pl-1 text-sm cursor-pointer" for="answer_input_{{answer.text}}">{{answer.text | titlecase}}</label>
+  </div>
+</form>
+  </div>
+  <div class="col-span-24 text-center p-0 m-0">
+    <div>
+      <a class="hover:text-orange-600 text-blue-600 hover:underline text-xs" href="#">{{data.authentication}}</a>
+    </div>
+    <div>
+      <a class="hover:text-orange-600 text-blue-600 hover:underline text-xs" href="#">{{data.results}}</a>
+    </div>
+  </div>
+</div>

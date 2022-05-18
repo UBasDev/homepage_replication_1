@@ -1,0 +1,4 @@
+<div *ngFor="let data of (footer_all_data | async)" class="flex justify-between items-center m-0 p-0 py-3 px-1 bg-blue-500">
+<div class="text-xs text-white" [innerHTML]="data['mail']"></div>
+<div class="text-xs text-white" [innerHTML]="data['text']"></div>
+</div>

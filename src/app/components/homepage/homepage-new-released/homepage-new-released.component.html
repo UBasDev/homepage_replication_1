@@ -1,0 +1,44 @@
+<div id="homepage_new_released_container" class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 border border-gray-300 rounded-md">
+  <div class="col-span-24 m-0 p-0 pl-1">
+    <div
+      class="inline-flex items-center justify-center p-0 m-0 text-red-800 hover:text-orange-600 hover:underline cursor-pointer">
+      <h1 class="inline-block p-0 m-0" [innerHTML]="homepage_new_release_header | titlecase"></h1>
+      <span>&nbsp;</span>
+      <i class="fa-solid fa-angles-right m-0 p-0 text-xs"></i>
+    </div>
+  </div>
+  <div class="col-span-24 m-0 p-0 pl-1">
+    <div
+      class="grid auto-cols-max grid-flow-col gap-0 gap-x-4 lg:gap-x-2 xl:gap-x-4 overflow-x-auto lg:overflow-x-hidden">
+      <div *ngFor="let all_data of (all_subscribed_data | async); index as index">
+        <button (click)="change_new_released_section_active($event);change_new_released_section_change($event)" [ngClass]="{ date_period_active3: index == 0 }"
+          (mouseenter)="date_period_hover_add($event)" (mouseleave)="date_period_hover_remove($event)"
+          [id]="'new_released_section_button_' + index"
+          class="cursor-pointer text-xs m-0 py-1 px-2 bg-gray-100 border border-gray-200 rounded-tl-md rounded-tr-md">{{all_data['section_name']}}</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-span-24 m-0 p-0 px-3 py-2">
+    <div class="grid grid-cols-24 grid-flow-row gap-0 gap-x-3 gap-y-3 m-0 p-0">
+      <div (mouseenter)="content_name_underline_add($event)" (mouseleave)="content_name_underline_remove($event)" *ngFor="let content of current_showing_data" class="col-span-6 m-0 p-0 cursor-pointer overflow-hidden">
+        <img style="width:100%" class="hover:scale-x-105" width="100%" [title]="content.name" [alt]="content.name" [src]="content.path">
+        <h1 id="homepage_new_released_content_name" class="text-sm text-red-800 cursor-pointer mt-1">{{content.name}}</h1>
+        <p class="text-sm">{{content.date_type}}</p>
+        <em class="text-xs text-gray-600">{{content.director_text}}</em>
+        <p class="text-sm">{{content.director_name}}</p>
+        <em class="text-xs text-gray-600">{{content.kind_text}}</em>
+        <p class="text-sm">{{content.kind_name}}</p>
+        <em class="text-xs text-gray-600">{{content.translator_text}}</em>
+        <p class="text-sm">{{content.translator_name}}</p>
+        <strong class="imdb_point1 text-sm">{{content.imdb_point | number: '1.1'}}</strong><span>&nbsp;</span><em class="text-sm text-gray-600">({{content.count}})</em>
+        <p class="text-xs text-gray-600 py-0 my-0">{{content.last_update_text}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div *ngIf="spinner_boolean" class="spinner_wrapper">
+  <div class="spinner_background"></div>
+  <div class="spinner"></div>
+</div>

@@ -1,0 +1,8 @@
+<div *ngFor="let data of all_survey_data" class="grid grid-cols-24 grid-flow-row gap-0 p-0 m-0 mt-1 bg-white border border-gray-300 rounded-md">
+  <div class="col-span-24 p-0 m-0 pl-1">
+    <h1 class="animation_right_slide text-red-700">{{data.header}}</h1>
+  </div>
+  <div class="col-span-24 pl-1 text-center p-0 m-0 py-2">
+    <a class="hover:text-orange-600 text-blue-700 hover:underline" href="#">{{data.text}}</a>
+  </div>
+</div>

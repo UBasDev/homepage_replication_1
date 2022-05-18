@@ -1,0 +1,40 @@
+#carousel_container{
+position:relative;
+}
+
+#carousel_image_container img{
+aspect-ratio:16/6;
+cursor:pointer;
+}
+
+.carousel_images{
+  filter:blur(0.1px) grayscale(50%);
+}
+
+.carousel_images:hover{
+  filter:none;
+}
+
+#carousel_left_arrow_container{
+  position:absolute;
+  top:42%;
+  left:0;
+  width:5%;
+  height:16%;
+  opacity:0.8;
+}
+#carousel_right_arrow_container{
+  position:absolute;
+  top:42%;
+  right:0;
+  width:5%;
+  height:16%;
+  opacity:0.8;
+}
+.carousel_bottom_containers{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:rgba(0, 0, 0, 0.60)
+}

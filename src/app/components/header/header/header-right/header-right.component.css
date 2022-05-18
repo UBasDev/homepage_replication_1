@@ -1,0 +1,6 @@
+.icons{
+  transition : all 1s ease-in-out;
+}
+.icons:hover{
+  transform : rotate(-360deg)
+}

@@ -1,0 +1,18 @@
+<div
+  class="grid grid-cols-24 grid-flow-row gap-y-0 gap-x-0 xl:gap-x-1 p-0 m-0 mt-1 bg-white border border-gray-300 rounded-md"
+>
+<div class="col-span-24 p-0 pl-1 m-0">
+  <h1 class="animation_right_slide text-red-700">Ne var ne yok</h1>
+</div>
+<div [ngClass]="{ 'border-t border-gray-300': index == 0 || index==1, 'pl-1':even }" *ngFor="let detail of all_details;index as index; even as even" class="col-span-12 p-0 m-0 text-sm">
+  <div class="grid grid-cols-24 grid-flow-row gap-0 text-left">
+    <div class="col-start-1 col-end-12 xl:col-start-1 xl:col-end-9 p-0 m-0">
+      <p class="inline">{{detail.count | number}}</p>
+    </div>
+    <div class="col-start-12 col-end-25 xl:col-start-10 xl:col-end-23 p-0 m-0">
+      <strong >{{detail.name}}</strong>
+    </div>
+  </div>
+</div>
+</div>
+<span>&nbsp;</span>

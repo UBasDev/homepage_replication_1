@@ -1,0 +1,2565 @@
+{
+  "search_details": [
+    {
+      "id":1,
+      "category":"altyazı",
+      "placeholder":"Film / Dizi adı ya da IMDB linki giriniz"
+    },
+    {
+      "id":2,
+      "category":"sanatçı",
+      "placeholder":"Sanatçı adı giriniz"
+    },
+    {
+      "id":3,
+      "category":"çevirmen",
+      "placeholder":"Çevirmen adı giriniz"
+    },
+    {
+      "id":4,
+      "category":"kelime",
+      "placeholder":"Kelime giriniz"
+    },
+    {
+      "id":5,
+      "category":"forum",
+      "placeholder":"Kelime Giriniz"
+    }
+  ],
+  "nav_categories":[
+    {
+      "id":1,
+      "category":"anasayfa",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"TA 250 film"
+        },
+        {
+          "id":2,
+          "category":"imdb 250"
+        },
+        {
+          "id":3,
+          "category":"1001 film"
+        },
+        {
+          "id":4,
+          "category":"yeni çıkanlar"
+        },
+        {
+          "id":5,
+          "category":"beklenenler"
+        },
+        {
+          "id":6,
+          "category":"gelişmiş film arama"
+        },
+        {
+          "id":7,
+          "category":"dizi takvimi"
+        },
+        {
+          "id":8,
+          "category":"gruplar"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "category":"forum",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"forum içinde ara"
+        },
+        {
+          "id":2,
+          "category":"çeviri duyuruları"
+        },
+        {
+          "id":3,
+          "category":"kullanıcı grupları"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "category":"altyazı",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"yeni çıkanlar"
+        },
+        {
+          "id":2,
+          "category":"beklenenler"
+        },
+        {
+          "id":3,
+          "category":"son 100 altyazı"
+        },
+        {
+          "id":4,
+          "category":"top 100 altyazı"
+        },
+        {
+          "id":5,
+          "category":"altyazı arama"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "category":"filmler",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"TA 250 film listesi"
+        },
+        {
+          "id":2,
+          "category":"Imdb 250 film listesi"
+        },
+        {
+          "id":3,
+          "category":"1001 film"
+        },
+        {
+          "id":4,
+          "category":"gelişmiş film arama"
+        },
+        {
+          "id":5,
+          "category":"pek yakında"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "category":"diziler",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"dizi takvimi"
+        },
+        {
+          "id":2,
+          "category":"TA 50 dizi listesi"
+        },
+        {
+          "id":3,
+          "category":"Imdb 250 dizi listesi"
+        }
+      ]
+    },
+    {
+      "id":6,
+      "category":"haberler",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"sinema"
+        },
+        {
+          "id":2,
+          "category":"dizi"
+        },
+        {
+          "id":3,
+          "category":"film kritikleri"
+        },
+        {
+          "id":4,
+          "category":"özel dosyalar"
+        }
+      ]
+    },
+    {
+      "id":7,
+      "category":"listeler",
+      "sub_categories":[
+        {
+          "id":1,
+          "category":"film listeleri"
+        },
+        {
+          "id":2,
+          "category":"kullanıcı listeleri"
+        }
+      ]
+    },
+    {
+      "id":8,
+      "category":"senkronizer",
+      "sub_categories":[]
+    },
+    {
+      "id":9,
+      "category":"altyazı gönder",
+      "sub_categories":[]
+    },
+    {
+      "id":10,
+      "category":"rastgele film",
+      "sub_categories":[]
+    }
+  ],
+  "nav_registrations":[
+    {
+      "id":1,
+      "name":"kayıt"
+    },
+    {
+      "id":2,
+      "name":"giriş"
+    }
+  ],
+  "date_periods":[
+    {
+      "id":1,
+      "name":"bugün",
+      "films":[
+        {
+          "id":1,
+          "name":"Doctor Strange in the Multiverse of Madness",
+          "repeat":1949
+        },
+        {
+          "id":2,
+          "name":"The Batman",
+          "repeat":1463
+        },
+        {
+          "id":3,
+          "name":"Uncharted",
+          "repeat":1203
+        },
+        {
+          "id":4,
+          "name":"Sonic the Hedgehog 2",
+          "repeat":1146
+        },
+        {
+          "id":5,
+          "name":"The Lost City",
+          "repeat":392
+        },
+        {
+          "id":6,
+          "name":"Spider-Man No Way Home",
+          "repeat":392
+        },
+        {
+          "id":7,
+          "name":"The Outfit",
+          "repeat":351
+        },
+        {
+          "id":8,
+          "name":"Eternals",
+          "repeat":253
+        },
+        {
+          "id":9,
+          "name":"Avatar",
+          "repeat":227
+        },
+        {
+          "id":10,
+          "name":"Dune: Part One",
+          "repeat":204
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"bu hafta",
+      "films":[
+        {
+          "id":1,
+          "name":"Sonic the Hedgehog 2",
+          "repeat":7747
+        },
+        {
+          "id":2,
+          "name":"The Batman",
+          "repeat":6948
+        },
+        {
+          "id":3,
+          "name":"Uncharted",
+          "repeat":6203
+        },
+        {
+          "id":4,
+          "name":"Doctor Strange in the Multiverse of Madness",
+          "repeat":3393
+        },
+        {
+          "id":5,
+          "name":"The Outfit",
+          "repeat":1736
+        },
+        {
+          "id":6,
+          "name":"Spider-Man No Way Home",
+          "repeat":1608
+        },
+        {
+          "id":7,
+          "name":"Eternals",
+          "repeat":994
+        },
+        {
+          "id":8,
+          "name":"Dune: Part One",
+          "repeat":974
+        },
+        {
+          "id":9,
+          "name":"Rifkin's Festival",
+          "repeat":227
+        },
+        {
+          "id":10,
+          "name":"As They Made Us",
+          "repeat":694
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"bu ay",
+      "films":[
+        {
+          "id":1,
+          "name":"The Batman",
+          "repeat":57723
+        },
+        {
+          "id":2,
+          "name":"Uncharted",
+          "repeat":32466
+        },
+        {
+          "id":3,
+          "name":"The Outfit",
+          "repeat":12361
+        },
+        {
+          "id":4,
+          "name":"Spider-Man No Way Home",
+          "repeat":8701
+        },
+        {
+          "id":5,
+          "name":"Sonic the Hedgehog 2",
+          "repeat":7916
+        },
+        {
+          "id":6,
+          "name":"The Contractor",
+          "repeat":6266
+        },
+        {
+          "id":7,
+          "name":"CODA",
+          "repeat":5910
+        },
+        {
+          "id":8,
+          "name":"All the Old Knives",
+          "repeat":4825
+        },
+        {
+          "id":9,
+          "name":"As They Made Us",
+          "repeat":4825
+        },
+        {
+          "id":10,
+          "name":"Eternals",
+          "repeat":4338
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"bu yıl",
+      "films":[
+        {
+          "id":1,
+          "name":"Eternals",
+          "repeat":70826
+        },
+        {
+          "id":2,
+          "name":"Spider-Man No Way Home",
+          "repeat":66526
+        },
+        {
+          "id":3,
+          "name":"The Batman",
+          "repeat":58351
+        },
+        {
+          "id":4,
+          "name":"Uncharted",
+          "repeat":33618
+        },
+        {
+          "id":5,
+          "name":"Ghostbusters: Afterlife",
+          "repeat":22896
+        },
+        {
+          "id":6,
+          "name":"Dune: Part One",
+          "repeat":22729
+        },
+        {
+          "id":7,
+          "name":"The King's Man",
+          "repeat":21769
+        },
+        {
+          "id":8,
+          "name":"The Matrix Resurrections",
+          "repeat":21428
+        },
+        {
+          "id":9,
+          "name":"Nightmare Alley",
+          "repeat":16005
+        },
+        {
+          "id":10,
+          "name":"The Outfit",
+          "repeat":12361
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"geçen yıl",
+      "films":[
+        {
+          "id":1,
+          "name":"Zack Snyder's Justice League",
+          "repeat":87571
+        },
+        {
+          "id":2,
+          "name":"Black Widow",
+          "repeat":63684
+        },
+        {
+          "id":3,
+          "name":"Mortal Kombat",
+          "repeat":55451
+        },
+        {
+          "id":4,
+          "name":"Nobody",
+          "repeat":54044
+        },
+        {
+          "id":5,
+          "name":"Free Guy",
+          "repeat":51937
+        },
+        {
+          "id":6,
+          "name":"Dune: Part One",
+          "repeat":50580
+        },
+        {
+          "id":7,
+          "name":"The Suicide Squad",
+          "repeat":42371
+        },
+        {
+          "id":8,
+          "name":"No Time to Die",
+          "repeat":42064
+        },
+        {
+          "id":9,
+          "name":"Venom: Let There Be Carnage",
+          "repeat":38130
+        },
+        {
+          "id":10,
+          "name":"F9",
+          "repeat":37640
+        }
+      ]
+    }
+  ],
+  "date_periods_serial_subtitle":[
+    {
+      "id":1,
+      "name":"bugün",
+      "films":[
+        {
+          "id":1,
+          "name":"Better Call Saul",
+          "repeat":6721
+        },
+        {
+          "id":2,
+          "name":"Halo",
+          "repeat":1149
+        },
+        {
+          "id":3,
+          "name":"This is Us",
+          "repeat":605
+        },
+        {
+          "id":4,
+          "name":"Severance",
+          "repeat":558
+        },
+        {
+          "id":5,
+          "name":"Peaky Blinders",
+          "repeat":528
+        },
+        {
+          "id":6,
+          "name":"Barry",
+          "repeat":447
+        },
+        {
+          "id":7,
+          "name":"The Blacklist",
+          "repeat":435
+        },
+        {
+          "id":8,
+          "name":"The Man Who Fell to Earth",
+          "repeat":404
+        },
+        {
+          "id":9,
+          "name":"The Endgame",
+          "repeat":339
+        },
+        {
+          "id":10,
+          "name":"Bosch: Legacy",
+          "repeat":379
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"bu hafta",
+      "films":[
+        {
+          "id":1,
+          "name":"Better Call Saul",
+          "repeat":15200
+        },
+        {
+          "id":2,
+          "name":"Halo",
+          "repeat":7177
+        },
+        {
+          "id":3,
+          "name":"Bosch: Legacy",
+          "repeat":3384
+        },
+        {
+          "id":4,
+          "name":"This is Us",
+          "repeat":2909
+        },
+        {
+          "id":5,
+          "name":"Tokyo Vice",
+          "repeat":2377
+        },
+        {
+          "id":6,
+          "name":"Severance",
+          "repeat":2296
+        },
+        {
+          "id":7,
+          "name":"Peaky Blinders",
+          "repeat":2337
+        },
+        {
+          "id":8,
+          "name":"Outer Range",
+          "repeat":1837
+        },
+        {
+          "id":9,
+          "name":"Outlander",
+          "repeat":1737
+        },
+        {
+          "id":10,
+          "name":"Barry",
+          "repeat":1717
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"bu ay",
+      "films":[
+        {
+          "id":1,
+          "name":"Better Call Saul",
+          "repeat":40818
+        },
+        {
+          "id":2,
+          "name":"Halo",
+          "repeat":34263
+        },
+        {
+          "id":3,
+          "name":"Peaky Blinders",
+          "repeat":23284
+        },
+        {
+          "id":4,
+          "name":"Severance",
+          "repeat":18333
+        },
+        {
+          "id":5,
+          "name":"Tokyo Vice",
+          "repeat":13742
+        },
+        {
+          "id":6,
+          "name":"This Is Us",
+          "repeat":10339
+        },
+        {
+          "id":7,
+          "name":"From",
+          "repeat":9037
+        },
+        {
+          "id":8,
+          "name":"That Dirty Black Bag",
+          "repeat":8834
+        },
+        {
+          "id":9,
+          "name":"The Blacklist",
+          "repeat":7827
+        },
+        {
+          "id":10,
+          "name":"Outlander",
+          "repeat":7692
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"bu yıl",
+      "films":[
+        {
+          "id":1,
+          "name":"The Book of Boba Fett",
+          "repeat":62645
+        },
+        {
+          "id":2,
+          "name":"Dexter: New Blood",
+          "repeat":48553
+        },
+        {
+          "id":3,
+          "name":"Peaky Blinders",
+          "repeat":48434
+        },
+        {
+          "id":4,
+          "name":"Better Call Saul",
+          "repeat":44018
+        },
+        {
+          "id":5,
+          "name":"Halo",
+          "repeat":37981
+        },
+        {
+          "id":6,
+          "name":"1883",
+          "repeat":37845
+        },
+        {
+          "id":7,
+          "name":"Succession",
+          "repeat":36325
+        },
+        {
+          "id":8,
+          "name":"Raised by Wolves",
+          "repeat":34399
+        },
+        {
+          "id":9,
+          "name":"Shingeki no kyojin",
+          "repeat":30576
+        },
+        {
+          "id":10,
+          "name":"Severance",
+          "repeat":24001
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"geçen yıl",
+      "films":[
+        {
+          "id":1,
+          "name":"Loki",
+          "repeat":103419
+        },
+        {
+          "id":2,
+          "name":"Vikings",
+          "repeat":99217
+        },
+        {
+          "id":3,
+          "name":"Succession",
+          "repeat":80176
+        },
+        {
+          "id":4,
+          "name":"The Mandalorian",
+          "repeat":77552
+        },
+        {
+          "id":5,
+          "name":"Dexter: New Blood",
+          "repeat":73633
+        },
+        {
+          "id":6,
+          "name":"The Blacklist",
+          "repeat":60387
+        },
+        {
+          "id":7,
+          "name":"Shingeki no kyojin",
+          "repeat":50197
+        },
+        {
+          "id":8,
+          "name":"See",
+          "repeat":49775
+        },
+        {
+          "id":9,
+          "name":"Your Honor",
+          "repeat":48518
+        },
+        {
+          "id":10,
+          "name":"Shameless",
+          "repeat":47334
+        }
+      ]
+    }
+  ],
+  "date_periods_soon":[
+    {
+      "id":1,
+      "name":"The Northman",
+      "date_string":"2022"
+    },
+    {
+      "id":2,
+      "name":"The Unbearable Weight of Massive Talent",
+      "date_string":"2022"
+    },
+    {
+      "id":3,
+      "name":"The Bad Guys",
+      "date_string":"2022"
+    },
+    {
+      "id":4,
+      "name":"Petite maman",
+      "date_string":"2021"
+    },
+    {
+      "id":5,
+      "name":"Hostile Territory",
+      "date_string":"2022"
+    },
+    {
+      "id":6,
+      "name":"The Duke",
+      "date_string":"2020"
+    },
+    {
+      "id":7,
+      "name":"Memory",
+      "date_string":"2022"
+    },
+    {
+      "id":8,
+      "name":"Les amours d'Anaïs",
+      "date_string":"2021"
+    },
+    {
+      "id":9,
+      "name":"Firebird",
+      "date_string":"2021"
+    },
+    {
+      "id":10,
+      "name":"Vortex",
+      "date_string":"2021"
+    }
+  ],
+  "main_right_survey":[
+    {
+      "id":1,
+      "header":"Anket",
+      "text":"2010'lu Yılların En Beğendiğiniz Yerli Filmi Hangisi?"
+    }
+  ],
+  "main_right_question_answer":[
+    {
+      "id":1,
+      "header":"Soru-Cevap",
+      "question":"Exxen'in başarılı olacağını düşünüyor musunuz?",
+      "authentication":"Oy vermek için giriş yapmalısınız.",
+      "results":"Sonuçlar Göster",
+      "answers":[
+        {
+          "id":1,
+          "text":"evet"
+        },
+        {
+          "id":1,
+          "text":"hayır"
+        }
+      ]
+    }
+  ],
+  "main_right_subtitle_senders":[
+    {
+      "id":1,
+      "name":"bugün",
+      "people":[
+        {
+          "id":1,
+          "name":"pexwas",
+          "repeat":9
+        },
+        {
+          "id":2,
+          "name":"comptonmost1",
+          "repeat":2
+        },
+        {
+          "id":3,
+          "name":"dejavu2008",
+          "repeat":2
+        },
+        {
+          "id":4,
+          "name":"vopixof457",
+          "repeat":1
+        },
+        {
+          "id":5,
+          "name":"tuth",
+          "repeat":1
+        },
+        {
+          "id":6,
+          "name":"burakyil",
+          "repeat":1
+        },
+        {
+          "id":7,
+          "name":"dirimli",
+          "repeat":1
+        },
+        {
+          "id":8,
+          "name":"gokhanonline",
+          "repeat":1
+        },
+        {
+          "id":9,
+          "name":"basmane",
+          "repeat":1
+        },
+        {
+          "id":10,
+          "name":"beetlepoet",
+          "repeat":1
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"bu hafta",
+      "people":[
+        {
+          "id":1,
+          "name":"pexwas",
+          "repeat":131
+        },
+        {
+          "id":2,
+          "name":"Divxteam",
+          "repeat":45
+        },
+        {
+          "id":3,
+          "name":"comptonmost1",
+          "repeat":14
+        },
+        {
+          "id":4,
+          "name":"gokhanonline",
+          "repeat":6
+        },
+        {
+          "id":5,
+          "name":"AsianQueen",
+          "repeat":5
+        },
+        {
+          "id":6,
+          "name":"dirimli",
+          "repeat":3
+        },
+        {
+          "id":7,
+          "name":"desprite",
+          "repeat":3
+        },
+        {
+          "id":8,
+          "name":"TThayadu",
+          "repeat":3
+        },
+        {
+          "id":9,
+          "name":"joseywales72",
+          "repeat":2
+        },
+        {
+          "id":10,
+          "name":"frukotr",
+          "repeat":2
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"bu ay",
+      "people":[
+        {
+          "id":1,
+          "name":"pexwas",
+          "repeat":494
+        },
+        {
+          "id":2,
+          "name":"Divxteam",
+          "repeat":221
+        },
+        {
+          "id":3,
+          "name":"comptonmost1",
+          "repeat":62
+        },
+        {
+          "id":4,
+          "name":"AsianQueen",
+          "repeat":22
+        },
+        {
+          "id":5,
+          "name":"gokhanonline",
+          "repeat":22
+        },
+        {
+          "id":6,
+          "name":"desprite",
+          "repeat":16
+        },
+        {
+          "id":7,
+          "name":"Cormorant",
+          "repeat":14
+        },
+        {
+          "id":8,
+          "name":"dejavu2008",
+          "repeat":12
+        },
+        {
+          "id":9,
+          "name":"peaceflower",
+          "repeat":12
+        },
+        {
+          "id":10,
+          "name":"Andromedan",
+          "repeat":10
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"bu yıl",
+      "people":[
+        {
+          "id":1,
+          "name":"pexwas",
+          "repeat":2280
+        },
+        {
+          "id":2,
+          "name":"Divxteam",
+          "repeat":806
+        },
+        {
+          "id":3,
+          "name":"Regisseur",
+          "repeat":588
+        },
+        {
+          "id":4,
+          "name":"gokhanonline",
+          "repeat":569
+        },
+        {
+          "id":5,
+          "name":"comptonmost1",
+          "repeat":390
+        },
+        {
+          "id":6,
+          "name":"Oldspider",
+          "repeat":196
+        },
+        {
+          "id":7,
+          "name":"husnugs",
+          "repeat":185
+        },
+        {
+          "id":8,
+          "name":"desprite",
+          "repeat":134
+        },
+        {
+          "id":9,
+          "name":"buraksahin",
+          "repeat":119
+        },
+        {
+          "id":10,
+          "name":"dejavu2008",
+          "repeat":93
+        }
+      ]
+    }
+  ],
+  "main_right_details":[
+    {
+      "id":1,
+      "count":678172,
+      "name":"altyazı"
+    },
+    {
+      "id":2,
+      "count":160447,
+      "name":"film bilgisi"
+    },
+    {
+      "id":3,
+      "count":3921655,
+      "name":"kişi bilgisi"
+    },
+    {
+      "id":4,
+      "count":91368,
+      "name":"fragman"
+    },
+    {
+      "id":5,
+      "count":1013970,
+      "name":"film karesi"
+    },
+    {
+      "id":6,
+      "count":530407,
+      "name":"sanatçı resmi"
+    },
+    {
+      "id":7,
+      "count":390602,
+      "name":"yorum"
+    },
+    {
+      "id":8,
+      "count":236214,
+      "name":"kayıtlı üye"
+    }
+  ],
+  "homepage_carousel_header":[
+    {
+      "id":1,
+      "name":"vizyonda bu hafta"
+    }
+  ],
+  "homepage_carousel":[
+    {
+      "id":1,
+      "name":"Doctor Strange in the Multiverse of Madness",
+      "date":"2022-06-05T21:00:00.000Z"
+    },
+    {
+      "id":2,
+      "name":"The Unbearable Weight of Massive Talent",
+      "date":"2022-05-29T21:00:00.000Z"
+    },
+    {
+      "id":3,
+      "name":"The Bad Guys",
+      "date":"2022-04-29T21:00:00.000Z"
+    },
+    {
+      "id":4,
+      "name":"Olga",
+      "date":"2022-04-29T21:00:00.000Z"
+    },
+    {
+      "id":5,
+      "name":"The Twin",
+      "date":"2022-04-29T21:00:00.000Z"
+    },
+    {
+      "id":6,
+      "name":"The Northman",
+      "date":"2022-04-22T21:00:00.000Z"
+    },
+    {
+      "id":7,
+      "name":"Pahanhautoja",
+      "date":"2022-04-22T21:00:00.000Z"
+    },
+    {
+      "id":8,
+      "name":"Ave Marie",
+      "date":"2022-04-22T21:00:00.000Z"
+    },
+    {
+      "id":9,
+      "name":"Firehearth",
+      "date":"2022-04-22T21:00:00.000Z"
+    },
+    {
+      "id":10,
+      "name":"Fantastic Beasts: The Secrets of Dumbledore",
+      "date":"2022-04-15T21:00:00.000Z"
+    }
+  ],
+  "homepage_new_released":[
+    {
+      "id":1,
+      "section_name":"Hepsi",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "section_name":"Filmler",
+      "contents":[
+        {
+          "id":1,
+          "name":"Fantastic Beasts: The Secrets of Dumbledore",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"David Yates",
+          "kind_text":"Tür",
+          "kind_name":"Macera",
+          "translator_text":"Çevirmen",
+          "translator_name":"balikdenzi",
+          "imdb_point":6.4,
+          "count":54852,
+          "last_update_text":"6 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/fantastic_beasts.jpg"
+        },
+        {
+          "id":2,
+          "name":"Firestarter",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Keith Thomas",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":4.6,
+          "count":4071,
+          "last_update_text":"9 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/firestarter.jpg"
+        },
+        {
+          "id":3,
+          "name":"Morbius",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Daniel Espinose",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.1,
+          "count":42185,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/morbius.jpg"
+        },
+        {
+          "id":4,
+          "name":"The Lost City",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Aaron Nee",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"OFT",
+          "imdb_point":6.6,
+          "count":17643,
+          "last_update_text":"15 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/lost_city.jpg"
+        },
+        {
+          "id":5,
+          "name":"The Tiger Rising",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Ray Giarratana",
+          "kind_text":"Tür",
+          "kind_name":"Aile",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":4.5,
+          "count":372,
+          "last_update_text":"23 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/tiger_rising.jpg"
+        },
+        {
+          "id":6,
+          "name":"Father Stu",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Rosalind Ross",
+          "kind_text":"Tür",
+          "kind_name":"Biyografi",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":6.9,
+          "count":2769,
+          "last_update_text":"2 gün önce",
+          "path":"../../../../assets/homepage_new_released/filmler/father_stu.jpg"
+        },
+        {
+          "id":7,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/memory.jpg"
+        },
+        {
+          "id":8,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/filmler/luzifer.jpg"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "section_name":"Diziler",
+      "contents":[
+        {
+          "id":1,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/the_resident.jpg"
+        },
+        {
+          "id":2,
+          "name":"9-1-1: Lone Star",
+          "date_type":"2020 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":6.4,
+          "count":4602,
+          "last_update_text":"15 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/911_lone_star.jpg"
+        },
+        {
+          "id":3,
+          "name":"Cheaters",
+          "date_type":"2022 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Elliot Hegarty",
+          "kind_text":"Tür",
+          "kind_name":"Komedi",
+          "translator_text":"Çevirmen",
+          "translator_name":"dejavu2008",
+          "imdb_point":6.3,
+          "count":26,
+          "last_update_text":"16 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/cheaters.jpg"
+        },
+        {
+          "id":4,
+          "name":"The equalizer",
+          "date_type":"2021 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Liz Friedlander",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":4.8,
+          "count":7243,
+          "last_update_text":"18 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/the_equalizer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Survive the Tribe",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Nicholas White",
+          "kind_text":"Tür",
+          "kind_name":"Belgesel",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.2,
+          "count":98,
+          "last_update_text":"23 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/survive_the_tribe.jpg"
+        },
+        {
+          "id":6,
+          "name":"Vampire in the Garden",
+          "date_type":"2022 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Ryotaro Makihara",
+          "kind_text":"Tür",
+          "kind_name":"Animasyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":0.0,
+          "count":0,
+          "last_update_text":"23 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/vampire_in_the_garden.jpg"
+        },
+        {
+          "id":7,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/diziler/chicago_pd.jpg"
+        },
+        {
+          "id":8,
+          "name":"How We Roll",
+          "date_type":"2022 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Cendrowski",
+          "kind_text":"Tür",
+          "kind_name":"Aile",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":5.2,
+          "count":404,
+          "last_update_text":"2 gün önce",
+          "path":"../../../../assets/homepage_new_released/diziler/how_we_roll.jpg"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":6,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":7,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":8,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":9,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    },
+    {
+      "id":10,
+      "section_name":"Null",
+      "contents":[
+        {
+          "id":1,
+          "name":"80 000 ans",
+          "date_type":"2020 / Film",
+          "director_text":"Yönetmen",
+          "director_name":" Christelle Lheureux",
+          "kind_text":"Tür",
+          "kind_name":"Kısa Metraj",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":6.0,
+          "count":17,
+          "last_update_text":"13 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/80000_ans.jpg"
+        },
+        {
+          "id":2,
+          "name":"Chicago P.D.",
+          "date_type":"2014 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Mark Tinker",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"TVRip",
+          "imdb_point":8.1,
+          "count":36468,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/chicago_pd.jpg"
+        },
+        {
+          "id":3,
+          "name":"Memory",
+          "date_type":"2022 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Martin Campbell",
+          "kind_text":"Tür",
+          "kind_name":"Aksiyon",
+          "translator_text":"Çevirmen",
+          "translator_name":"Fansub",
+          "imdb_point":5.7,
+          "count":905,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/memory.jpg"
+        },
+        {
+          "id":4,
+          "name":"Luzifer",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Peter Brunner",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.7,
+          "count":348,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/luzifer.jpg"
+        },
+        {
+          "id":5,
+          "name":"Figaros Wölfe",
+          "date_type":"2017 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Dominik Galizia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":3.0,
+          "count":104,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/figaros_wolfe.jpg"
+        },
+        {
+          "id":6,
+          "name":"La fracture",
+          "date_type":"2021 / Film",
+          "director_text":"Yönetmen",
+          "director_name":"Catherine Corsini",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":5.8,
+          "count":111,
+          "last_update_text":"14 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/la_fracture.jpg"
+        },
+        {
+          "id":7,
+          "name":"The Resident",
+          "date_type":"2018 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Bill D'Elia",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":7.8,
+          "count":25492,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/the_resident.jpg"
+        },
+        {
+          "id":8,
+          "name":"Blacklist",
+          "date_type":"2013 / Tv Dizisi",
+          "director_text":"Yönetmen",
+          "director_name":"Michale W. Watkins",
+          "kind_text":"Tür",
+          "kind_name":"Dram",
+          "translator_text":"Çevirmen",
+          "translator_name":"NETRip",
+          "imdb_point":8.0,
+          "count":238337,
+          "last_update_text":"22 saat önce",
+          "path":"../../../../assets/homepage_new_released/hepsi/blacklist.jpg"
+        }
+      ]
+    }
+  ],
+  "homepage_new_released_header":[
+    {
+      "id":1,
+      "header":"Türkçe Altyazısı Yeni Çıkanlar"
+    }
+  ],
+  "homepage_last_released_film_frame":[
+    {
+      "id":1,
+      "name":"Cheaters",
+      "image_path":"../../../../assets/homepage_new_released/film_frames/cheaters.jpg"
+    },
+    {
+      "id":2,
+      "name":"La déesse des mouch",
+      "image_path":"../../../../assets/homepage_new_released/film_frames/des_mouch.jpg"
+    },
+    {
+      "id":3,
+      "name":"Love on the Dole",
+      "image_path":"../../../../assets/homepage_new_released/film_frames/love_on_the_dole.jpg"
+    },
+    {
+      "id":4,
+      "name":"The Man Who Wouldn't",
+      "image_path":"../../../../assets/homepage_new_released/film_frames/the_man_who_wouldnt.jpg"
+    },
+    {
+      "id":5,
+      "name":"Ibong Adarna",
+      "image_path":"../../../../assets/homepage_new_released/film_frames/ibong_adarna.jpg"
+    }
+  ],
+  "homepage_last_released_film_frame_header":[
+    {
+      "id":1,
+      "header":"Son Eklenen Film Kareleri"
+    }
+  ],
+  "homapage_film_analysis":[
+    {
+      "id":1,
+      "name":"Zenne",
+      "date":2012,
+      "comment_owner":"sinmsar",
+      "image_path":"../../../../assets/homepage_new_released/analysis/zenne.jpg",
+      "comment":"Neresinden başlayacağımı bilemiyorum. Filmi daha demin izledim ve muhtemelen nasıl hislendiğimi yine ifade edemeyeceğim.<br>Bu film hakkında okumaktan, izlemekten ve duymaktan kaçındım, sanki hiçbir şey bilmeden izlersem daha güzel olacağını düşündüm. Ne sonunu ne de kimi anlattığını biliyordum. Açık söyleyeyim iyi ki de böyle yapmışım. Sonu bilinmezliklerle dolu bir gerilimdi benim için, içimi öylesine acıttı ki anlatamam. O son resmi görene dek, hani şu gazetelerde çıkan resmi, kim olduğunu bile bilmiyordum Ahmet'in ya da bizim bildiğimiz şekliyle Ahmet Y.'nin. Devamlı olarak Can'a bir terslik olacak diye izledim filmi. Ahmet'in ailesi yan konunun esas konuyu ele geçirmesi gibiydi.<br>Filmin konusu sakin. Can bir zenne ve dansına hayran olan Alman bir fotoğrafçı onu model olarak kullanmak istiyor. Can'ın çevresinde dolaşan bir arkadaşı var, çekingen biraz, Ahmet. Sonra bu üçü arkadaş oluyor, ikisi sevgili. Askerliğe gitmemeye çalışmalarını anlatıyor film, onların gerginliklerini, yaşadıkları zorlukları... Böyle film gibi değil ama, doğal akışında. Belgesel gibi de değil, kurguların farkına vardırıyor izlerken. Zaten filmin en büyük başarısı bu belki de, herkes o kadar rol yapmıyor gibi ki, sanki her olay başlarından geçmişçesine.<br>Ahmet'in arayışını sonlandırdığı kişi Alman fotoğrafçı. Yaşça Ahmet'ten çok büyük ama aralarında çok enteresan bir bağ gelişiyor. Aşk mı güven mi bilemiyorum, ama onlar bir şekilde hem de hemen bağlanıyorlar. Danny'nin geçmişinde bir olay var ve bundan azap çekiyor, belki Ahmet bunu yok eden kişi oluyor onun için. Sonra da bunu tekrarlayan. En çok acı çeken karakter belki de aslında Danny. Yabancı bir ülkede, bambaşka bir kültüre sevdalanıyor...<br>Aile müthiş bir konu filmde. Can'ın tüm ailesi ona sahip çıkar ve onu desteklerken, Ahmet tamamen kendi içinde yaşıyor hepsini. Sadece kız kardeşi ve Can destek ona. Can'ın annesi de teyzesi de harika insanlar. Müthiş bir destek ve sahiplenme... Can'ı askere göndermeyen annesi, evi paylaştığı teyzesi var. Teyze evlenip boşanmış, gey konuşmalarını dinlemekten hoşlanmıyor olması onun duruma karşı olduğunu kesinlikle göstermiyor. Kimse yeğeninin askere gitmemek için hangi şekillerde resim çektirmesi gerektiğini dinlemek istemez sanırım.<br>Can'ın annesi asker kocasını şehit vermiş, diğer oğlu ise psikolojik sorunlarla gelmiş askerden. Can'ı askere gitmekten alıkoyan en büyük sebep anne. Oğulları için kendi hayatından vazgeçmiş, her iki oğlunu da çok seviyor. Oğlunu askere göndermemek uğruna görmekten vazgeçecek kadar çok seviyor hem de.<br>Ahmet'in annesinden ise tüm film boyu nefret ediyorsunuz. Babasına içiniz acıyor. Kendini öldürmeyi dahi başaramayan baba annenin tüm sözleri altında devamlı bir ezilme halinde. Anne tam bir otorite figürü ve Ahmet'in kaçma sebebi. Her an tüm dünyayı kontrolü altında tutmak isteyen, duygularının varlığından dahi emin olamadığınız bir kadın.<br>Ahmet ise gey olduğu için özür dileyen bir insan evladı. Kendi duygularına gem vuramadığı için kendini suçluyor. Ama ne olduğunu biliyor ve bunu reddetmiyor. Ailesine açıklamak ise en büyük korkusu, bunu bize öyle güzel hissettiriyor ki babasını aradığında biz de onunla beraber ağlıyoruz.<br>Askerlik filmin başrollerinden biri. Neden gitmek istemediklerini öyle acımasızca gösterdiler ki bize, o anda tüm o doktorlardan nefret ettik. Hiç bir insan evladı o aşağılamaları hak etmez. Amacı nefret ettirmek mi yoksa empati kurdurmak mı bilemiyorum ama doktorların yaklaşımını düşündükçe televizyona terlik fırlatma isteğim artıyor.<br>Fakat filmin en güzel yanlarından biri hiç kimseyi dış görünüşüyle yargılamamamız gerektiğini bize çaat diye göstermesi. Teyzenin sevgilisi -ki son derece tekinsiz bir hali var- bir sevgi insanı. Can'ı, Ahmet'i, Danny'yi, teyzeyi gerçekten seven ve bunu göstermeye dahi gerek duymayan bir insan. Kirayı ödediği için kızan teyzeye \"Seni seviyorum, ne var ödememde\" demek yerine \"Ben de burada yaşıyorum, uyuyorum, yiyorum, içiyorum, ne var yani!!!\" şeklinde bağırıp kapıyı çekip çıkan, Ahmet'e dayılananlara \"Bana bak koçum, benimle dalaşmak ister misin?\" diyen bir tip. Teyzeyle evlenmek isteyen, onu sevdiğini her an hissttiğimiz, hani keşke bizim de böyle bir eniştemiz olsa diyeceğiniz bir insan. Sıcacık ve doğal.<br>Ailecek delicesine sevdik bu filmi. Yaş, bakış açılarındaki farklılık, jenerasyon değişimi hiç etki etmedi, bir nevi kurşun geçirmez duygu geçirir enfes bir film kısacası. Aileyle beraber izlemiyor olsaydım açık söylüyorum yarım saate yakın ağlardım. Bunu da zerrece duygu sömürüsüne başvurmadan yapmışlar ya ellerinden alınlarından yanaklarından öpmek lazım. Film biteli 1 saate yakın oldu, ve tüm bu süre boyunca filmden başka bir şey düşünemez haldeyim, boğazımda bir yumru var ve gitmiyor."
+    },
+    {
+      "id":2,
+      "name":"İntihar Timi: Gerçek Kötüler",
+      "date":2016,
+      "comment_owner":"Yorumbaz",
+      "image_path":"../../../../assets/homepage_new_released/analysis/suicide_squad.jpg",
+      "comment":"Batman V. Superman'in yarattığı hayal kırıklığından ve süper kahraman filmlerinin benzer konuları tekrar ve tekrar işlemesinden sonra, süper kahraman filmlerine yeni bir kan gerekiyordu. İçinde az da olsa klişe elementler bulunduran ama genel anlamda orijinal ve yaratıcı bir film arıyordu herkes. Bu yüzden Suicide Squad'dan ümitliydim. DC evreninin en kötü karakterleri bir araya gelip dünyayı yok edecek bir tehditi yok etmeye çalışıyorlar. Oldukça yaratıcı bir konu! Bu yüzden filmle ilgili yazımı yazmadan önce şunu belirtmem gerekir: Eğer bu filmden klasik ve bilindik şeyler bekliyorsanız, hayal kırıklığına uğrayacaksınız. Marvel'ın benzer konuları tekrardan işlemesi ve DC'nin bazı zayıf yanları bir yana... Bu film bambaşka bir şey.<br>Filmin iyi yanlarından başlamak istiyorum. Öncelikle, bu filmin soundtracki bir harika! Eminem'den Queen'e, Skrillex'den Wiz Khalifa'ya kadar bir sürü ünlü şarkıcının söylediği en iyi şarkıları bu filme derlemişler. Ve ortaya da müthiş bir sonuç çıkmış. Özellikle de filmin ilk yarısındaki komediyi ve tempoyu çok iyi düzenlemiş.<br>Bunun dışında film, karakterlerine de oldukça önem vermiş. Filmin en başında filmimizin başrolündeki karakterlerin ayrı ayrı olduğu flashbackleri görüyoruz. Bu sahneler oldukça eğlenceliydi ve filme karşı seyircinin ilgisini çekmeyi başardı. Çünkü Harley Quinn, Deadshot gibi karakterleri sinemada daha önce görmediğimizden, bu karakterlerin hikayelerini tek filme sığdırmak oldukça zor. Ama Suicide Squad bunu başarıyla yerine getirmiş ve filmin ilk 20 dakikasını bu flashbacklere ayırmış. 20 dakika dediysem merak etmeyin, hayatınızdaki en kısa 20 dakika olacak. Ayrıca, filmin sonlarına doğru olan bar sahnesi de öyle. El Diablo gibi karakterlerin geçmişlerine dair daha fazla bilgi öğreniyoruz. Bir aksiyon sahnesi olmasa da, filmin en sevdiğim sahnelerinden biriydi bu.<br>Ama oyunculuklardan da bahsetmemek olmaz. Filmdeki yan karakterler bir yana (hepsinin oyunculuğu başarılıydı bu arada), ben filmde ön plana çıkan oyunculuklardan bahsetmek istiyorum.<br>Will Smith'in Deadshot'ından başlayalım. Smith, her zaman olduğu gibi rolüne bir derinlik ve eğlence getirmiş. Diyalogları ve sahneleri çok başarılıydı, filmin havasını tamamen değiştirmeyi başarmış. Smith'in en eğlenceli performanslarından biriydi Deadshot.<br>Ayrıca Viola Davis'in karakteri Amanda Waller da oldukça başarılıydı. Hatta şunu söyleyebilirim ki Amanda Waller karakteri, filmin asıl kötü adamından daha ürkütücüydü. Davis, bu rolde resmen parlamış açıkçası.<br>Ama bence filmin asıl yıldızı, bulunduğu her sahneyi çalan Margot Robbie'ydi (nam-ı diğer Harley Quinn). Robbie'nin oyunculuğu için sadece şunu söyleyebilirim: Bu filmdeki Harley Quinn karakteri, romanlarındaki ve çizgi filmlerindeki gibi deli, çekici, komik ve manyak. Bu filmdeki Harley, tam olarak da hayal ettiğiniz gibi. Sadece daha da iyi. Margot Robbie ve Will Smith, bu filmi resmen sahiplenmişler, onlar olmasaydı bu filmin de olacağını pek sanmıyorum.<br>Bir de, bunu diyeceğim hiç aklıma gelmezdi ama demek zorundayım, Jai Courtney'in performansı oldukça başarılıydı. Jai Courtney'i Terminatör Genisys, Uyumsuz ve Zor Ölüm 5 filmlerindeki monoton performanslarıyla hatırlarsınız. Sonunda Jai, bu filmde ortaya samimi ve farklı bir karakter koymuş. Tek boynuzlu atlara olan zaafı da cabası. Onu bu filmde izlemek oldukça keyifliydi.<br>Şimdi de merak edilen kısma gelelim, Jared Leto'nun Joker'ine. Bu filmdeki Joker, oldukça iyiydi bence. Evet, filmde fazla görünmüyor ve Heath Ledger kadar iyi değil... Ama bunlar gereksiz zaten. Ledger ile Leto'nun canlandırdığı Joker'ler, iki ayrı Joker. Ledger'ınki kaos çıkaran kafadan çatlak birisi, Leto'nunki ise bir psikopat mafya babası şeklinde. Ledger'ın Joker'ini Harley Quinn ile birlikte hayal edebiliyor musunuz? Hayır! Bu filmdeki Harley Quinn'in yanında kesinlikle Leto'nun Joker'i olması gerekirdi. Bence kendi çapında, ortaya iyi bir Joker çıkmış. Ayrıca onun ekran süresi de yeterliydi bence. Biliyorsunuz, bu filmde Joker daha çok bir cameo aslında, Suicide Squad ekibinin dışında yani. Joker'in bu filmde yer alması bile izlemek için yeterli bir sebep olmuş.<br>Filmin aksiyon sahneleri de epey başarılıydı. Her ne kadar çok farklı bir şey olmasa da filmde bulunan karakterler, o sahneleri özel hale getirmiş. Keşke aksiyon sahneleri ve çatışmalar daha fazla olsaymış dedirtiyor çünkü o sahneler o kadar eğlenceli ki, izlemeye doyamıyorsunuz. Filmin aksiyon sahneleriyle ilgili hiçbir şikayetim olmasa da şöyle bir durum var açıkçası:<br>Aslında bu film aksiyondan ziyade, komik sahneleriyle ön plana çıkmış. Suicide Squad'ın aksiyon sahneleri çok başarılı hazırlanmış olsa da o sahneleri hatırlayacağımı pek zannetmiyorum. Suicide Squad, ana karakterleri ve komik anları, farklı temposuyla hatırlanacak bir yapım. Bu yüzden bu filmi \"Mad Max tarzında, durmayan bir aksiyon filmi\" olarak izlemeye çalışmayın, eğlenmenize bakın. Filmdeki espri anlayışı mükemmeldi bu arada. Özellikle de Harley Quinn'in olduğu sahneler oldukça komikti. Hatta 2 sahnesinde salonda sesli güldüğümü söyleyebilirim.<br>Şimdi de filmin kötü yanlarına gelelim. Film oldukça iyi kurgulanmış olsa da, eksik yanları da var. Mesela, film daha çok Harley Quinn, El Diablo ve Deadshot gibi ana karakterlere yoğunlaşırken Katana, Slipknot gibi havalı karakterleri arka plana atmış. Bu filmde en fazla 4 dakika Katana ve 1 dakika Slipknot vardı, ciddiyim.<br>Bunun dışında her ne kadar bu sefer abartılacak kadar olmasa da bu filmde de, BvS'de olduğu gibi bazı yavaş anlar vardı. Bu yavaş ve dramatik olan anlarda filmin tonu tamamen değişip ortaya oldukça ciddi bir sonuç çıkıyor. Bu sahneye bakınca benim için hiçbir sorun yok, karakterlerle ilgili önemli şeyler oluyor bu sahnelerde. Ama filmin en başından beri kurduğu uçuk ve eğlenceli tonun hemen sönmesi biraz kötü oluyor açıkçası.<br>Bir de filmin kötü karakterinin biraz zayıf kaldığını belirtmeliyim. Spoiler vermeyeceğim ama şunu söyleyebilirim: Oldukça ürkütücü ve soğukkanlı birisi olan Amanda Waller tarafından, Justice League yerine dünyanın en kötü adamlarını bir araya getiren bir ekip oluşunca, tehditin de bu kadar büyük oluşu beklenir. Filmin kötü karakterinin etkili olduğu bir gerçek ama, bu filme tam layık olan birisi değil. Doomsday falan olsa anlarım ama bu kişinin tek yaptığı şey, garip dans hareketleri yapıp havaya ışık saçmak.<br>Ama genel anlamda bütün resme bakacak olursak Suicide Squad, sadece bu yazın değil, son yılların en özgün ve en eğlenceli süper kahraman filmlerinden biri. Filmdeki karakterleri izlerken keyif aldım, aksiyon sahnelerine şaşırıp kaldım, şakalarına çok güldüm... Eğer Kara Şövalye gibi ciddi ve gerçekçi bir film arıyorsanız, yanlış yerdesiniz. Bütün ciddiyeti bir yana bırakın ve 2 saat boyunca Suicide Squad ile eğlenmenize bakın. İstediğimiz değil, hak ettiğimiz süper kahraman filmi ortaya çıkmış. DC'nin de en iyi işlerinden biri ayrıca. Kesinlikle kaçırmayın, pişman olmayacaksınız hatta daha fazlasını isteyeceksiniz. İyi seyirler."
+    },
+    {
+      "id":3,
+      "name":"Emoji Filmi",
+      "date":2017,
+      "comment_owner":"MatthewMc",
+      "image_path":"../../../../assets/homepage_new_released/analysis/emoji_movie.jpg",
+      "comment":"Baby Driver, Thor: Ragnarok veya Star Wars VIII gibi filmleri es geçin, bu yılın en çok beklediğim filmi açık ara The Emoji Movie'ydi. Böyle yaratıcı bir fikir ve seslendirme kadrosundan ortaya nasıl bir iş çıkacağını merak ediyordum. Ve çıkan sonuç beni hayal kırıklığına uğratmadı. Çünkü The Emoji Movie, bu yıl izlediğim en iyi animasyon filmi bence.<br>Böyle bir şey dememi beklemiyorsunuz, değil mi? Filmi izleseniz de, izlemeseniz de The Emoji Movie'nin kötü bir film olabileceğini rahatlıkla tahmin edebilirsiniz. Nasıl mı? Bu yılın en kötü eleştirilen filmi olması bir yana, bu film emojiler hakkında. Emojiler! Vay be, Sony nihayet olabilecek en gereksiz filmi çekmeyi başardı. Çünkü herkes emojiler hakkında yapılmış bir film görmek istiyordu, değil mi?<br>\"Okulda kız sorunu yaşayan Alex'in telefonunda yaşayan emojilerin dünyasında geçiyor hikayemiz. Filmin ana karakteri Gene, aslında \"Meh\" emojisi olması gerekirken birden fazla duygu gösterdiği için kaçak durumuna düşer. Bu esnada da \"El\" emojisi olan Çakbeşlik ve hacker olan bir emoji \"Jailbreak\" ile tanışan Gene, kendisini düzeltmek için birlikte telefondaki uygulamalar arasında bir yolculuğa çıkarlar. Bu esnada da telefonda sorunlar yaşandığı için Alex, telefonunu yeniden başlatmayı düşünüyordur. Ve Gene de bunu engellemeye çalışır.\"<br>Öncelikle bu filmin üzerine fazla gitmek istemiyorum çünkü The Emoji Movie'yi izlemeden önce içimde ufacık da olsa bir beklenti vardı. Çünkü arada sırada The Lego Movie gibi sadece bir reklamdan ibaretmiş gibi görünen filmlerin harika olduğuna tanık oldum. Bu yüzden bu filmin de beni o açıdan şaşırtabileceğini düşünüyordum.<br>Öncelikle film hakkında söyleyebileceğim 2 iyi şey var. Seslendirme kadrosu başarılıydı ve The Emoji Movie'nin 50 milyon gibi ufak bir bütçeye sahip olup ve tüm zamanların en hızlı hazırlanan animasyonu olduğunu düşünürsek, animasyonun kalitesi oldukça başarılıydı. Tüm karakterler renkliydi ve görünüşleri capcanlıydı. Ama bunların dışında filmdeki hemen hemen her şey çok kötüydü.<br>Kısa bir süre önce Sevimli Emojiler adlı bir animasyon için yazdığım yazıyı okumuş muydunuz? O yazımda The Emoji Movie'nin asla o film kadar kötü olamayacağını ve arasında çok fazla benzerlik olduğunu yazmıştım (mesela ana karakterin adı Alex). Ve haklıymışım! The Emoji Movie, Sevimli Emojiler filmi kadar kötü değildi! Yine de bu şey The Emoji Movie'yi iyi yapmıyor ama.<br>Sıra kötü yanlara geldi. Her ne kadar karakterlerin görünüşleri renkli ve capcanlı olsa da herkesin kişilikleri çok sıkıcıydı ve fazlasıyla klişeydi. Mesela Gene'in ebeveynleri film boyunca monoton bir şekilde konuşuyorlar ve karakterlerinin hiç ilgi çekici bir yanı yoktu. Üstelik filmin büyük bir kısmı da onlara adanmış.<br>Hele bir de şakalara gelecek olursak, filmdeki hiçbir şakaya gülmedim. Sırf açılış sahnesinde 5 tane kaka şakası vardı. Filmin geri kalanını siz düşünün artık. Bu filmdeki şaka düzeyi o kadar düşüktü ki, The Emoji Movie'nin sadece 4 yaşından küçük olan ve konuşamayan çocuklar için yapıldığını düşünüyorum.<br>Şimdi ne düşündüğünüzü anlıyorum. \"Alt tarafı bir çocuk filmi, bu kadar büyütecek ne var?\" diyorsunuz. Tıpkı Sevimli Emojiler yazımdaki gibi, The Emoji Movie'ye de çocukların gözünden bakmaya çalışacağım. Sinema salonunda bir tek ben, 2 ebeveyn ve 2 çocuk vardı. İlk yarının sonlarına doğu önümde oturan 2 çocuk da sesli bir şekilde \"Filmden sıkıldım, artık gitsek olmaz mı? diye birkaç kere bağırdı. Ve ikinci yarıda ise çocukların ikisi de koltuklarından kalkıp salonun etrafında öylece koşturmaya başladılar. Benim önümden geçtiler, perdede sıçradılar... İkinci yarının neredeyse tamamı böyle geçti. En sonunda ebeveynlerden birisi \"Artık sakinleşin biraz, bakın abi film izliyor\" diye onları sakinleştirdi Bu çok iyi oldu çünkü The Emoji Movie film deneyimimin bölünmesini gerçekten istemiyordum. Şaka şaka, The Emoji Movie o kadar gereksizdi ki, bir süreden sonra filmden kopup gerçekten hayatı sorgulamaya ve neden bu filmin var olduğunu düşünmeye başladım.<br>Son olarak şu ürün yerleştirmelerden de konuşalım. Film boyunca başroldeki 3 emoji, Alex'in telefonundaki uygulamaları geziyor. Candy Crush'da bir el oynuyorlar, YouTube'da PPAP izliyorlar (ciddiyim) ve Just Dance uygulaması ile kendine olan güvenlerini arttırıyorlar. Hikayenin en önemli kısımlarından birisi ise ana karakterlerimizin Dropbox'a ulaşması gerektiği! Dropbox! Kusura bakmayın ama bir süreden sonra bu reklamlar iyice itici olmaya başladı.<br>Kısacası The Emoji Movie, şu ana kadar yapılmış en kötü film değil. Hatta bu yıl gördüğüm en kötü animasyon filmi bile değil (Sevimli Emojiler filmini geçmesi biraz zor). Sadece amaçsız. Filmin hikayesi önceden bin defa izlediğimiz hikayenin aynısı, karakterler, durumlar ve hatta filmin finali bile şu ana kadarki bütün animasyon filmlerinde geçen sahnelerden bir farkı yok. Filmin içine konulmuş yaratıcı fikirler ve harika animasyon ise ortaya çıkan sonucu daha kötü yapıyor. Çünkü ortaya bir emeğin koyulduğunu görebiliyorsunuz. İşin can sıkıcı tarafı ise bütün bu emeklerin emojiler hakkında olan bir film için yapılmış olması. The Emoji Movie'yi yetişkinlerin veya çocukların izlemesini tavsiye etmiyorum. Her şeyiyle rezalet olduğu için değil, içinde komik olan hiçbir şeyin olmadığı, aşırı sıkıcı olduğu, tonlarca ürün yerleştirme içerdiği ve klişe konusundan dolayı önermiyorum. Dediğim gibi, bu filmin var olması için hiçbir neden yok. Sadece es geçin yeter."
+    }
+  ],
+  "homepage_film_analysis_header":[
+    {
+      "id":1,
+      "header":"Film İncelemeleri"
+    }
+  ],
+  "homepage_new_released_artist":[
+    {
+      "id":1,
+      "name":"Savannah DesOrmeaux",
+      "image_path":"../../../../assets/homepage_new_released/artist/savannah.jpg"
+    },
+    {
+      "id":2,
+      "name":"Anta Toros",
+      "image_path":"../../../../assets/homepage_new_released/artist/anta_toros.jpg"
+    },
+    {
+      "id":3,
+      "name":"Joshua Davis",
+      "image_path":"../../../../assets/homepage_new_released/artist/joshua.jpg"
+    },
+    {
+      "id":4,
+      "name":"Ruhi Sari",
+      "image_path":"../../../../assets/homepage_new_released/artist/ruhi.jpg"
+    },
+    {
+      "id":5,
+      "name":"Troy Brenna",
+      "image_path":"../../../../assets/homepage_new_released/artist/troy.jpg"
+    }
+  ],
+  "homepage_new_released_artist_header":[
+    {
+      "id":1,
+      "header":"Yeni Eklenen Sanatçı Resimleri"
+    }
+  ],
+  "footer":[
+    {
+      "id":1,
+      "mail":"destek@turkcealtyazi.org",
+      "text":"Türkçe Altyazı © 2007 - 2022"
+    }
+  ],
+  "top_banner_path":[
+    {
+      "id":1,
+      "image_path":".././../../assets/top_banner/bannermobil.jpg"
+    }
+  ]
+}

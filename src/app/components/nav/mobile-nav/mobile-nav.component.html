@@ -1,0 +1,45 @@
+<div class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 border-b-2 border-blue-500">
+  <div class="col-span-24 p-0 m-0">
+    <div class="flex flex-row justify-between items-center p-0 m-0 bg-blue-500">
+      <div class="p-0 m-0">
+        <img src="../../../../assets/logo/logo1.png">
+      </div>
+      <div class="flex flex-row items-center gap-0 gap-x-3 p-0 m-0 mr-2">
+        <i (click)="search_bar_content_toggler()" class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
+        <i (click)="register_content_toggler()" class="fa-solid fa-user text-xl cursor-pointer"></i>
+        <i (click)="category_content_toggler()" class="fa-solid fa-bars text-xl cursor-pointer"></i>
+      </div>
+    </div>
+  </div>
+  <div id="mobile_nav_search_bar_container" class="hidden mobile_navbar_display_content mobile_navbar_display_content_open col-span-24 p-0 m-0">
+    <div class="overflow-hidden grid grid-cols-24 grid-flow-row gap-0 m-0 p-0">
+      <div class="col-span-23">
+        <input class="search_input" style="width:100%" type="search"
+          placeholder="Film / Dizi adı ya da IMDB linki giriniz">
+      </div>
+      <div class="col-span-1 flex items-center text-center">
+        <i style="width: 100%;" class=" fa-solid fa-magnifying-glass cursor-pointer p-0 m-0 text-blue-500 hover:text-green-500"></i>
+      </div>
+    </div>
+  </div>
+  <div id="mobile_nav_register_container" class="hidden mobile_navbar_display_content mobile_navbar_display_content_open col-span-24 p-0 m-0">
+    <div class="overflow-hidden grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 bg-blue-400 divide-y divide-blue-500">
+      <div *ngFor="let registration of (mobile_nav_registration_data | async)" class="col-span-24 p-0 m-0 text-white text-sm hover:bg-blue-500 py-3 pl-4 cursor-pointer">{{registration['name'] | titlecase}}</div>
+    </div>
+  </div>
+  <div id="mobile_nav_category_container" class="hidden mobile_navbar_display_content mobile_navbar_display_content_open col-span-24 p-0 m-0">
+    <div class="overflow-hidden grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 bg-blue-400 divide-y divide-blue-500">
+      <div *ngFor="let category of (mobile_nav_registration_categories_data | async); index as index" class="col-span-24 p-0 m-0 text-white text-sm cursor-pointer">
+        <div (click)="sub_categories_toggler($event)" class="flex items-center justify-between py-2 px-4 hover:bg-blue-500">
+          <h1 [id]="'nav_categories_b_'+index.toString()">{{category['category'] | titlecase}}</h1>
+          <i *ngIf="category['sub_categories'].length>0 && index!=0" class="fa-solid fa-angle-down"></i>
+        </div>
+        <div [id]="'nav_sub_categories_'+category['category'] + '_' +index" *ngIf="index>0" class="hidden">
+          <div *ngFor="let sub_category of category.sub_categories;index as index2" class="bg-blue-500 py-2 px-4">
+            {{sub_category['category'] | titlecase}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

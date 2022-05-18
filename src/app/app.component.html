@@ -1,0 +1,26 @@
+<div class="body lg:container bg-gray-100 lg:border-2 lg:border-blue-500 lg:rounded-xl p-0 m-0 lg:my-2 mx-auto">
+  <div class="col-span-24 lg:hidden p-0 m-0">
+    <app-top-banner></app-top-banner>
+  </div>
+  <div class="hidden lg:block col-span-24 p-0 m-0">
+    <app-header></app-header>
+  <app-nav></app-nav>
+  </div>
+  <div class="col-span-24 lg:hidden p-0 m-0">
+    <app-mobile-nav></app-mobile-nav>
+  </div>
+  <main class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0">
+<div class="col-span-24 lg:col-span-16 p-0 m-0">
+  <router-outlet name="main_outlet"></router-outlet>
+</div>
+<div class="col-span-24 lg:col-span-8 p-1 m-0">
+<app-main-right></app-main-right>
+</div>
+</main>
+<footer class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0">
+  <div class="col-span-24">
+    <app-footer></app-footer>
+  </div>
+</footer>
+  <i *ngIf="scroll_up_boolean" (click)="scrollToTop()" style="position: fixed;right:5%;bottom:5%;transform:scale(3);z-index: 11;" class="fa-solid fa-square-caret-up lg:hidden cursor-pointer"></i>
+</div>

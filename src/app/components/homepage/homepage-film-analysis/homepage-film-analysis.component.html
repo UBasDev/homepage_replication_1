@@ -1,0 +1,28 @@
+<div id="homepage_film_analysis_container"
+  class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 border border-gray-300 rounded-md">
+  <div class="col-span-24 m-0 p-0 pl-1">
+    <div *ngFor="let header of (homepage_film_analysis_header | async)"
+      class="inline-flex items-center justify-center p-0 m-0 text-red-800 hover:text-orange-600 hover:underline cursor-pointer">
+      <h1 class="inline-block p-0 m-0" [innerHTML]="header['header'] | titlecase"></h1>
+      <span>&nbsp;</span>
+      <i class="fa-solid fa-angles-right m-0 p-0 text-xs"></i>
+    </div>
+  </div>
+  <div class="col-span-24 m-0 p-0 pl-1">
+    <div class="grid grid-cols-24 grid-flow-row gap-0 gap-y-3">
+      <div class="col-span-24" *ngFor="let data of (homepage_film_analysis_all_data | async)">
+        <div class="grid grid-cols-24 grid-flow-row gap-0 gap-x-2 m-0 p-0">
+          <div class="col-span-4 md:col-span-4 lg:col-span-4">
+            <img style="width:100%;" class="cursor-pointer" [src]="data['image_path']">
+          </div>
+          <div class="col-span-20 md:col-span-20 lg:col-span-20 text-ellipsis">
+            <h1 class="inline p-0 m-0 text-blue-600 hover:text-orange-500 hover:underline cursor-pointer" [innerHTML]="data['name']"></h1><span>&nbsp;</span><span class="text-gray-600 text-md">(<span
+                [innerHTML]="data['date']"></span>)</span><span><span>&nbsp;</span>-<span>&nbsp;</span></span><span class="text-gray-600 text-md"
+              [innerHTML]="data['comment_owner']"></span>
+              <br><p class="text-xs md:text-md inline" [innerHTML]="data['comment'] | slice: 0:500"></p><span>...</span><a class="text-sm text-red-800 cursor-pointer">devamı</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

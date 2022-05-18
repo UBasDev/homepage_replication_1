@@ -1,0 +1,19 @@
+<div id="homepage_last_released__artist_container"
+  class="grid grid-cols-24 grid-flow-row gap-0 m-0 p-0 border border-gray-300 rounded-md">
+  <div class="col-span-24 m-0 p-0 pl-1">
+    <div *ngFor="let header of (homepage_new_released_artist_header | async)"
+      class="inline-flex items-center justify-center p-0 m-0 text-red-800 hover:text-orange-600 hover:underline cursor-pointer">
+      <h1 class="inline-block p-0 m-0" [innerHTML]="header['header'] | titlecase"></h1>
+      <span>&nbsp;</span>
+      <i class="fa-solid fa-angles-right m-0 p-0 text-xs"></i>
+    </div>
+  </div>
+  <div class="col-span-24 m-0 p-0 pl-1 mb-2">
+    <div class="grid grid-cols-24 lg:grid-cols-20 grid-flow-row gap-0 gap-y-3 gap-x-3 p-0 m-0 ">
+      <div style="position:relative;min-height: 8rem;" *ngFor="let data of (homepage_new_released_artist_all_data | async)" class="col-span-12 sm:col-span-8 lg:col-span-4 m-0 p-0 text-center cursor-pointer">
+        <img style="position:absolute;width:100%;" width="100%" [alt]="data.name" [title]="data.name" [src]="data['image_path']">
+        <p style="position:absolute;bottom: 0%;width:100%;background-color: rgba(0,0,0,0.5);" class="text-white text-xs">{{data.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>
