@@ -1,3 +1,13 @@
+# Project Description
+
+This is a limit testing for me and the replica of "https://turkcealtyazi.org/index.php" 100% responsive and dynamic homepage. This is a single hompage project which includes many components. I only used Angular13, Json-Server(for fake API) and Tailwind3(for styling). Any UI library or plugin weren't used. I wrote all components my own(like navbar, mobile navbar, carousel, galleries, etc..). This project also includes Service Worker so it will cache all data to your browser and after first opening the project on your browser, then it will pull most of data from your browser because they are cached.
+
+# How can i run this project?
+So simple.Download it and open with your IDE(VS Code or something). Go to the terminal and paste "json-server -w data.json -p 8000" and that will run fake API. Then we should open another terminal and paste "npm run start-pwa" and that will run your Angular application. You can reach it via your browser from "http://localhost:8080".
+
+#Last Important Thing!
+If you encounter bugs because of the service worker, you can simply paste "ng serve -o" and run Angular application.
+
 # Angular1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
