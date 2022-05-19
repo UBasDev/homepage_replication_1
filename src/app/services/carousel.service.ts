@@ -8,9 +8,9 @@ export class CarouselService {
 
   constructor(private http:HttpClient) { }
   get_carousel_header():Observable<any[]>{
-    return this.http.get<any[]>("http://localhost:3000/homepage_carousel_header");
+    return this.http.get<any[]>("http://localhost:8000/homepage_carousel_header");
   }
   get_carousel_data():Observable<any[]>{
-    return this.http.get<any[]>("http://localhost:3000/homepage_carousel");
+    return this.http.get<any[]>("http://localhost:8000/homepage_carousel");
   }
 }

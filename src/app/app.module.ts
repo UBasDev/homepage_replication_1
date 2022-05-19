@@ -84,7 +84,7 @@ registerLocaleData(localeTr, 'tr')
     provide:LOCALE_ID, useValue:'tr',
   },
   {
-    provide: 'apiUrl', useValue: 'http://localhost:3000/'
+    provide: 'apiUrl', useValue: 'http://localhost:8000/'
   }
 ],
   bootstrap: [AppComponent]

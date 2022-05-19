@@ -11,7 +11,7 @@ export class HeaderMiddleComponent implements OnInit {
   constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get('http://localhost:3000/search_details').subscribe((response:any)=>{
+    this.http.get('http://localhost:8000/search_details').subscribe((response:any)=>{
       this.users = response;
       this.formValue = response[0].placeholder;
     })

@@ -7,12 +7,12 @@ export class SerialSubtitleService {
   constructor(private http: HttpClient) {}
   get_all_data(): Observable<any[]> {
     return this.http.get<any[]>(
-      'http://localhost:3000/date_periods_serial_subtitle'
+      'http://localhost:8000/date_periods_serial_subtitle'
     );
   }
   get_film_subtitles():Observable<any[]> {
     return this.http
-      .get<any[]>('http://localhost:3000/date_periods_serial_subtitle');
+      .get<any[]>('http://localhost:8000/date_periods_serial_subtitle');
   }
 
 }

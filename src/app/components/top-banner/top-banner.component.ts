@@ -12,7 +12,7 @@ export class TopBannerComponent implements OnInit {
   constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
-    this.img_path = this.http.get<any[]>('http://localhost:3000/top_banner_path')
+    this.img_path = this.http.get<any[]>('http://localhost:8000/top_banner_path')
   }
   img_path!:Observable<any[]>;
 }

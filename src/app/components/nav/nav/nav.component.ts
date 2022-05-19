@@ -12,11 +12,11 @@ export class NavComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
 
-    this.http.get("http://localhost:3000/nav_categories").subscribe((response:any)=>{
+    this.http.get("http://localhost:8000/nav_categories").subscribe((response:any)=>{
       this.nav_categories = response;
       this.sub_categories = response[0]["sub_categories"];
     });
-    this.http.get("http://localhost:3000/nav_registrations").subscribe((response:any)=>{
+    this.http.get("http://localhost:8000/nav_registrations").subscribe((response:any)=>{
       this.nav_registrations = response;
     })
   }
@@ -30,7 +30,7 @@ export class NavComponent implements OnInit, AfterViewInit {
   show_sub_categories(event:any){
     for(let i=0;i<9;i++){
       if(event.target.id=='nav_categories_'+i.toString()){
-        this.http.get("http://localhost:3000/nav_categories").subscribe((response:any)=>{
+        this.http.get("http://localhost:8000/nav_categories").subscribe((response:any)=>{
           if(response[i]["sub_categories"].length>0){
             this.sub_categories = response[i]["sub_categories"];
             if(i==1){

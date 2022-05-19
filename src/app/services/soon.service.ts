@@ -7,6 +7,6 @@ export class SoonService {
 
   constructor(private http:HttpClient) { }
   get_all_data():Observable<any[]>{
-    return this.http.get<any[]>("http://localhost:3000/date_periods_soon");
+    return this.http.get<any[]>("http://localhost:8000/date_periods_soon");
   }
 }

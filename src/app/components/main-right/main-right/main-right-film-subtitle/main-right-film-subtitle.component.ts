@@ -11,7 +11,7 @@ export class MainRightFilmSubtitleComponent implements OnInit {
   constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get("http://localhost:3000/date_periods").subscribe((response:any)=>{
+    this.http.get("http://localhost:8000/date_periods").subscribe((response:any)=>{
       this.date_periods = response;
       this.film_subtitles=response[0]['films'];
     })
@@ -41,7 +41,7 @@ export class MainRightFilmSubtitleComponent implements OnInit {
   get_film_subtitles(event:any){
     for(let i=0;i<5;i++){
       if(event.target.id=='date_period_a_'+i.toString()){
-        this.http.get("http://localhost:3000/date_periods").subscribe((response:any)=>{
+        this.http.get("http://localhost:8000/date_periods").subscribe((response:any)=>{
           this.film_subtitles = response[i]['films']
         })
       }
